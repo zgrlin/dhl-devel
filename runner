@@ -1,0 +1,4 @@
+ghdl -a --std=08 circuit_math_pkg.vhdl
+ghdl -a --std=08 circuit_simulator.vhdl
+ghdl -e --std=08 circuit_simulator
+ghdl -r --std=08 circuit_simulator --stop-time=200ms --wave=simulation.ghw
