@@ -1,2 +1,2 @@
 # dhl-devel
-VHDL
+add to VHDL designs here.
